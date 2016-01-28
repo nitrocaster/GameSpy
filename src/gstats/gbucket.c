@@ -8,11 +8,6 @@ devsupport@gamespy.com
 
 ******/
 
-#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-#pragma warning(disable: 4267) //lines: 260, 357
-#endif //#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-
-
 /********
 INCLUDES
 ********/

@@ -6,13 +6,6 @@
 #include "gsStringUtil.h"
 #include "../darray.h"
 
-#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-#pragma warning(disable: 4267) //lines: 155, 156, 161, 162
-#pragma warning(disable: 4244) //lines: 128, 720, 752
-#endif //#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-
-
-
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
 #define GS_XML_INITIAL_ELEMENT_ARRAY_COUNT	    32

@@ -17,10 +17,6 @@ devsupport@gamespy.com
 INCLUDES
 ********/
 
-#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-#pragma warning(disable: 4267) //lines: 845, 846
-#endif //#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-
 #include "gcdkeys.h"
 #include "../common/gsCommon.h"
 #include "../common/gsAvailable.h"

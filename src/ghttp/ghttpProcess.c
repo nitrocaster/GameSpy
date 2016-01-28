@@ -8,11 +8,6 @@ Copyright 1999-2007 GameSpy Industries, Inc
 devsupport@gamespy.com
 */
 
-#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-#pragma warning(disable: 4244) //lines: 980, 1202, 1207, 1298, 1447, 1451
-#pragma warning(disable: 4267) //lines: 1071
-#endif //#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-
 #include "ghttpProcess.h"
 #include "ghttpCallbacks.h"
 #include "ghttpPost.h"

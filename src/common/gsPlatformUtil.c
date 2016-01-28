@@ -3,12 +3,6 @@
 #include "gsCommon.h"
 #include "gsPlatformUtil.h"
 
-#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-#pragma warning(disable: 4244) //lines: 1368, 1372
-#pragma warning(disable: 4267) //lines: 1861
-#endif //#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-
-
 // Include platform separated functions
 #if defined(_X360)
 	//#include "x360/gsUtilX360.c"

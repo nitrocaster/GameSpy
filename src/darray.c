@@ -11,10 +11,6 @@
 #include <string.h>
 #include "darray.h" 
 
-#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-#pragma warning(disable: 4244) //lines: 202, 260
-#endif //#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-
 #ifdef _MFC_MEM_DEBUG
 #define _CRTDBG_MAP_ALLOC 1
 #include <crtdbg.h>

@@ -8,11 +8,6 @@ Copyright 2002 GameSpy Industries, Inc
 devsupport@gamespy.com
 */
 
-#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-#pragma warning(disable: 4244) //lines: 130
-#endif //#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-
-
 #include "gt2Main.h"
 #include "gt2Utility.h"
 #include <stdio.h>

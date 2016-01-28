@@ -7,11 +7,6 @@ Copyright 2000 GameSpy Industries, Inc
 
 */
 
-#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-#pragma warning(disable: 4244) //lines: 606
-#endif //#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-
-
 #include <stdio.h>
 #include "pt.h"
 #include "../ghttp/ghttp.h"

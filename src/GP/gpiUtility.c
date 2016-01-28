@@ -11,12 +11,6 @@ devsupport@gamespy.com
 Please see the GameSpy Presence SDK documentation for more information
 **********************************************************************/
 
-#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-#pragma warning(disable: 4244) //lines: 333
-#pragma warning(disable: 4267) //lines: 142
-#endif //#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-
-
 //INCLUDES
 //////////
 #include <stdlib.h>

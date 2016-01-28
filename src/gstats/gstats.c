@@ -11,12 +11,6 @@ Please see the GameSpy Stats and Tracking SDK documentation for more info
 
 ******/
 
-#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-#pragma warning(disable: 4267) //lines: 207
-#pragma warning(disable: 4244) //lines: 1536, 1537, 1538
-#endif //#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-
-
 /********
 INCLUDES
 ********/

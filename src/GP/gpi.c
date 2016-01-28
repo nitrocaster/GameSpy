@@ -13,11 +13,6 @@ Please see the GameSpy Presence SDK documentation for more information
 
 //INCLUDES
 //////////
-
-#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-#pragma warning(disable: 4244) //lines: 345, 362
-#endif //#ifdef XRAY_DISABLE_GAMESPY_WARNINGS
-
 #include <stdlib.h>
 #include <string.h>
 #include "gpi.h"
